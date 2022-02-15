@@ -5,12 +5,17 @@ body{
     padding:0;
 }
 
-
+/* Estilos para el Header de la pagina*/
+.navbar ul li a
+{
+    text-decoration: none;
+    color: rgb(233, 242, 252);
+}
 
 .navbar ul
 {
     display: flex;
-    color: rgb(233, 242, 252);
+    
     list-style:none;
     padding: 0;
 }
@@ -19,7 +24,6 @@ body{
 {
     padding: 0 5px 0 5px;
 }
-
 
 .navbar
 {
@@ -35,17 +39,22 @@ body{
     color: #bed2e0;   
 }   
 
+.header
+{
+    width: 100%;
+    margin:0;
+    padding: 0;
+}
+
+/* Estilos para el cuerpo de la pagina*/
+
 .main canvas{
     margin: 10px 0 0px 0px;
 }
 
 
-footer p
-{
-    padding:0;
-    margin: 0;
-    font-size: 10;
-}
+
+
 .btn{
     margin: 2px;
     background-color: rgb(0, 6, 59);
@@ -69,4 +78,12 @@ h2
 p{
     padding:0;
     margin:5px;
+}
+/*Estilos para el footer*/
+
+footer p
+{
+    padding:0;
+    margin: 0;
+    font-size: 10;
 }

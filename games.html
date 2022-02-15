@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JCamiloRG-Dev</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+
+    <nav>
+        <iframe class="header"src="Shared/header.html" frameborder="0"></iframe>
+    </nav>
+
+    <main class="main">
+        <h2> Juego de Lineas </h2>
+        <p>Cuantas lineas quieres? 
+        <input type="number"  placeholder="Numero de lineas" id="texto_lineas" min="1" max="400"></p>
+        <input type="submit" class="btn" value = "Dale" id="btn_lineas"/>
+        <input type="color" id="color_linea"/><br>
+        <canvas class="dibujo" id="dibujito" width="420" height="420"></canvas>
+        
+        <h2> Dibuja con flechas </h2>
+        <p>Usa las flechas para dibujar</p>
+        <canvas class="dibujo" id="area_dibujo_flechas" width="420" height="420"></canvas>
+
+    </main>
+
+
+    <footer class="footer">
+        <p>by: Juan Camilo Ramirez</p>
+    </footer>
+
+    <script src="app.js"></script>
+</body>
+</html>
